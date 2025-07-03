@@ -1,5 +1,5 @@
 # 📊 Financial Market Analyzer
-Recoge las empresas a mejor precio según el mercado de valores mediante scraping web
+Recoge las empresas a mejor precio según el mercado de valores mediante la api yfinance.
 
 Este proyecto solo sigue fines educativos y surge de la curiosidad de generar una herramienta que combine el mundo de las finanzas con el scraping web. En ningun caso es una recomendación de inversión. De igual modo, los datos son fiables y recogidos en tiempo real cuando se ejecute el script que contiene el core del proyecto.
 
