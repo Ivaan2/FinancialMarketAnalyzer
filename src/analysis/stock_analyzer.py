@@ -6,14 +6,9 @@ import logging
 from typing import List, Dict
 
 def analyze_stocks(symbols: List[str]) -> Dict[str, float]:
-    logging.basicConfig(
-        level=logging.DEBUG,
-        format='%(asctime)s [%(levelname)s] %(message)s',
-        datefmt='%H:%M:%S'
-    )
 
     results = []
-    logging.info(f"Iniciando análisis de {len(symbols)} acciones del EuroStoxx50...")
+    logging.info(f"Iniciando análisis de {len(symbols)} acciones del SP500...")
 
     for i, symbol in enumerate(symbols, start=1):
         logging.debug(f"Analizando acción {i}/{len(symbols)}: {symbol}")
@@ -36,7 +31,7 @@ def calculate_cheap_value_price_stock(symbol: str) -> float:
     Este índice estima si una acción está 'barata' usando múltiplos financieros y rentabilidad.
 
     Parámetros:
-        symbol (str): Ticker de la acción (ej. 'AAPL', 'AI.PA', '0700.HK')
+        symbol (str): Ticker de la acción (ej. 'AAPL', 'TSL', 'MSFT')
 
     Retorna:
         float: cheap_value_index (mayor es mejor, >1 idealmente atractivo)
