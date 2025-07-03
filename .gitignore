@@ -1,0 +1,44 @@
+## .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and debugging
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test coverage
+htmlcov/
+coverage.xml
+.cache/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy and other type checkers
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Pylint
+.pylint.d/
