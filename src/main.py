@@ -22,7 +22,7 @@ for lib in ['yfinance', 'urllib3', 'requests']:
 
 if __name__ == "__main__":
     market_name: str = "SP500"
-    symbols = get_tickers_by_market(market_name)[::10]
+    symbols = get_tickers_by_market(market_name)
     top_stocks = analyze_stocks(symbols)
     for idx, (symbol, index_value) in enumerate(top_stocks.items(), start=1):
         print(f"{idx}. {symbol:8} -> cheap_value_index: {index_value}")

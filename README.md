@@ -37,7 +37,7 @@ Este proyecto está pensado para:
 
 ### Instalación del código
 
-> https://github.com/Ivaan2/FinancialMarketAnalyzer.git
+> git clone https://github.com/Ivaan2/FinancialMarketAnalyzer.git
 
 cd .\FinancialMarketAnalyzer\
 
