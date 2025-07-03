@@ -37,10 +37,16 @@ Este proyecto está pensado para:
 
 ### Instalación del código
 
-> git clone <>
+> https://github.com/Ivaan2/FinancialMarketAnalyzer.git
+
+cd .\FinancialMarketAnalyzer\
 
 ### 📦 Instalación de dependencias
 
 En la raíz del proyecto, ejecuta:
 
 > pip install -r requirements.txt
+
+Una vez tenemos las dependencias instaladas, bastará con ejecutar el siguiente comando:
+
+> python launch.py
